@@ -1,0 +1,13 @@
+
+.filmCard {
+    width: 260px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 8px;
+
+    > img {
+        width: 200px;
+        border-radius: 8px;
+    }
+}

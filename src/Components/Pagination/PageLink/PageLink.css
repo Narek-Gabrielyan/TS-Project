@@ -1,0 +1,28 @@
+
+.page-link {
+  color: #800000;
+  line-height: 36px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s linear;
+  padding: 0 16px;
+  border-radius: 36px;
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: #fff;
+  background-color: #800000;
+}
+
+.page-link.active {
+  color: #fff;
+  background-color: #800000;
+}
+
+.page-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+}

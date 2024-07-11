@@ -1,0 +1,15 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    opacity: .9;
+    background: black;
+    color: gold;
+    padding: 8px 16px;
+    z-index: 1;
+}
